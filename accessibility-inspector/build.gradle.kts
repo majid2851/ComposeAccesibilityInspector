@@ -66,7 +66,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.majid2851"
             artifactId = "compose-accessibility-inspector"
-            version = "0.1.0"
+            version = "1.0.0"
 
             afterEvaluate {
                 from(components["release"])
